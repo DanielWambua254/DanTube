@@ -1,0 +1,56 @@
+html,
+body{
+    width: 100%;
+    padding-bottom: 20px;
+}
+main {
+    max-width: 96%;
+    min-width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+aside {
+    min-width: 200px;
+}
+aside .nav-pills .nav-link {
+    color: #444444;
+}
+aside .nav-pills .nav-link:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+aside .nav-pills .nav-link.active {
+    background: rgba(0, 0, 0, 0.05);
+    color: #b90000;
+    border-left: 4px solid #444444;
+}
+
+.content {
+    flex: 1;
+}
+
+.upload-icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: #454545;
+}
+
+.btn-file {
+    position: relative;
+}
+
+.btn-file input {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 100%;
+}
